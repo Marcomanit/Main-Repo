@@ -1,0 +1,44 @@
+We are absolutely thrilled you are interested 10 jin us at Rohlik Group. By now we have spoken to
+‘you about your experience and personality n great detail Next step is to find out how you tackle
+‘task in reality and hear you think
+
+Java Developer
+Task
+
+| write an application, which will be using @REST interface to maintain a database of products and
+orders.
+
+REST order operations
+“creation of the order
+cancellation of the order
+payment of the order
+
+REST product operations
+creation of the product
+
+deleting product
+
+~actualisation of the product -actualisation of product quantity in stock, name,
+
+Every product must have a name, quantity in stock and price per unit. he order can be for 1 or W
+‘existing products and for any unit quantity (eg. 5 bread, 2 bottles of milk, ..), but i is always
+‘necessary for all the products to be in adequate quantity in stock during the creation of the order.
+
+Hf this condition is not met, an answer for calling of the endpoint for creation of the order wil be
+Items, for which there isn't enough quantity including the missing quantity.
+
+Work with the fact that every order is decreasing the number of available items for following orders,
+‘even incase that the order is not pad yet, for the period of max 30 minutes, then & new order must,
+‘be submitted the current orders invalid). Cancellation of the order releases the reserved goods.
+
+‘The choice of the technology is yours, in general we recommend Spring Boot 2, Tomcat, ava B+, H2
+In-memory D8. The way of realisation of this tack i on you, such as supporting sheets,
+
+‘documentation o endpoints (using Swagger tests.
+
+Format
+‘We are not strict set on the form of the presentation. Whatever works for you and you are
+‘comfortable with, works for us. So if you just want ta have an open forum discussion without any
+‘materials, wear in. t you want to present any documents to us, we will provide the tools fort or
+‘bing your own. Just let us know.
+
