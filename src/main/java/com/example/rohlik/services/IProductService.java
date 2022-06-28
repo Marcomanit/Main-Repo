@@ -1,10 +1,9 @@
 package com.example.rohlik.services;
 
 import com.example.rohlik.models.Product;
-import com.example.rohlik.models.ProductQantity;
 import org.springframework.http.ResponseEntity;
 
-public interface ProductInterface {
+public interface IProductService {
 
     ResponseEntity<Object> creatingProduct(String name, Integer pricePerUnit, Integer productQantityInStock);
 

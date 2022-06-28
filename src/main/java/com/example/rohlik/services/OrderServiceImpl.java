@@ -6,7 +6,6 @@ import com.example.rohlik.models.ProductOrderDTO;
 import com.example.rohlik.models.ProductQantity;
 import com.example.rohlik.repositories.OrderRepository;
 import com.example.rohlik.repositories.ProductQuantityRepository;
-import com.example.rohlik.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,14 +14,14 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 @Service
-public class OrderService implements OrderInterface{
+public class OrderServiceImpl implements IOrderService {
 
     private OrderRepository orderRepository;
-    private ProductService productService;
+    private ProductServiceImpl productService;
     private ProductQuantityRepository productQuantityRepository;
 
     @Autowired
-    public OrderService(OrderRepository orderRepository, ProductService productService, ProductQuantityRepository productQuantityRepository) {
+    public OrderServiceImpl(OrderRepository orderRepository, ProductServiceImpl productService, ProductQuantityRepository productQuantityRepository) {
         this.orderRepository = orderRepository;
         this.productService = productService;
         this.productQuantityRepository = productQuantityRepository;

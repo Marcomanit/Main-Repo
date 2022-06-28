@@ -1,21 +1,18 @@
 package com.example.rohlik.controllers;
 
 import com.example.rohlik.models.Product;
-import com.example.rohlik.services.ProductService;
+import com.example.rohlik.services.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/product")
 public class ProductController {
 
-    private ProductService productService;
+    private ProductServiceImpl productService;
     @Autowired
-    public ProductController(ProductService productService) {
+    public ProductController(ProductServiceImpl productService) {
         this.productService = productService;
     }
 

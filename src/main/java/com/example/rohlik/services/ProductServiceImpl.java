@@ -1,8 +1,6 @@
 package com.example.rohlik.services;
 
 import com.example.rohlik.models.Product;
-import com.example.rohlik.models.ProductQantity;
-import com.example.rohlik.repositories.OrderRepository;
 import com.example.rohlik.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,10 +10,10 @@ import org.springframework.stereotype.Service;
 import java.util.Optional;
 
 @Service
-public class ProductService implements ProductInterface{
+public class ProductServiceImpl implements IProductService {
     private ProductRepository productRepository;
     @Autowired
-    public ProductService(ProductRepository productRepository) {
+    public ProductServiceImpl(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
 

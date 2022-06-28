@@ -1,10 +1,9 @@
 package com.example.rohlik.controllers;
 
 import com.example.rohlik.models.ProductOrderDTO;
-import com.example.rohlik.services.OrderService;
+import com.example.rohlik.services.OrderServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -12,10 +11,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/order")
 public class OrderController {
-    private OrderService orderService;
+    private OrderServiceImpl orderService;
 
     @Autowired
-    public OrderController(OrderService orderService) {
+    public OrderController(OrderServiceImpl orderService) {
         this.orderService = orderService;
     }
     @PostMapping("/create")

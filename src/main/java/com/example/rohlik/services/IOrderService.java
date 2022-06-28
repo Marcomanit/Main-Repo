@@ -1,13 +1,12 @@
 package com.example.rohlik.services;
 
-import com.example.rohlik.models.Order;
 import com.example.rohlik.models.ProductOrderDTO;
 import com.example.rohlik.models.ProductQantity;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
-public interface OrderInterface {
+public interface IOrderService {
 
     ResponseEntity<Object> creatingOrder(List<ProductOrderDTO> productsOrderDTO);
 
