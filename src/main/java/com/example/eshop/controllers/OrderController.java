@@ -1,7 +1,7 @@
-package com.example.rohlik.controllers;
+package com.example.eshop.controllers;
 
-import com.example.rohlik.models.ProductOrderDTO;
-import com.example.rohlik.services.OrderServiceImpl;
+import com.example.eshop.models.ProductOrderDTO;
+import com.example.eshop.services.OrderServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

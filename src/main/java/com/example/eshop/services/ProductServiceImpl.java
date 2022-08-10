@@ -1,7 +1,7 @@
-package com.example.rohlik.services;
+package com.example.eshop.services;
 
-import com.example.rohlik.models.Product;
-import com.example.rohlik.repositories.ProductRepository;
+import com.example.eshop.models.Product;
+import com.example.eshop.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

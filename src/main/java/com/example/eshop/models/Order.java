@@ -1,11 +1,8 @@
-package com.example.rohlik.models;
+package com.example.eshop.models;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import com.example.rohlik.models.Product;
 
 
 @Entity

@@ -1,4 +1,4 @@
-package com.example.rohlik.models;
+package com.example.eshop.models;
 
 public class MissingItemDTO {
     Product product;

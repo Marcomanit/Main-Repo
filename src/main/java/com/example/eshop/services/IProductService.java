@@ -1,6 +1,6 @@
-package com.example.rohlik.services;
+package com.example.eshop.services;
 
-import com.example.rohlik.models.Product;
+import com.example.eshop.models.Product;
 import org.springframework.http.ResponseEntity;
 
 public interface IProductService {

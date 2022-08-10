@@ -1,6 +1,6 @@
-package com.example.rohlik.repositories;
+package com.example.eshop.repositories;
 
-import com.example.rohlik.models.ProductQantity;
+import com.example.eshop.models.ProductQantity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

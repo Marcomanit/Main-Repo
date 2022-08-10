@@ -1,4 +1,4 @@
-package com.example.rohlik;
+package com.example.eshop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

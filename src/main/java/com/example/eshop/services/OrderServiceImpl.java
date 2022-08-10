@@ -1,11 +1,11 @@
-package com.example.rohlik.services;
+package com.example.eshop.services;
 
-import com.example.rohlik.models.MissingItemDTO;
-import com.example.rohlik.models.Order;
-import com.example.rohlik.models.ProductOrderDTO;
-import com.example.rohlik.models.ProductQantity;
-import com.example.rohlik.repositories.OrderRepository;
-import com.example.rohlik.repositories.ProductQuantityRepository;
+import com.example.eshop.models.MissingItemDTO;
+import com.example.eshop.models.Order;
+import com.example.eshop.models.ProductOrderDTO;
+import com.example.eshop.models.ProductQantity;
+import com.example.eshop.repositories.OrderRepository;
+import com.example.eshop.repositories.ProductQuantityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
